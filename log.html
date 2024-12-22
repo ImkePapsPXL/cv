@@ -39,9 +39,9 @@
     <main>
         <section>
         <div class="logBook">
-        <h1>Log</h1>
         <h2>Year 1</h2>
-        <h3>Semester 1</h3>
+        <button type="button" class="collapsible">Semester 1 <i class="fa-solid fa-caret-down"></i></button>
+            <div class="content">
         <table>
             <thead>
             <tr>
@@ -101,7 +101,7 @@
                     Explanation web project sprint 1</td>
                 <td>PE6 (carrièrecompas)</td>
             </tr>
-            <tr>
+            <tr class="vacation">
                 <td>Fall vacation</td>
                 <td></td>
                 <td></td>
@@ -149,7 +149,7 @@
                     Infosession Thalento</td>
                 <td>PE11 (web project)</td>
             </tr>
-            <tr>
+            <tr class="vacation">
                 <td>Christmas vacation</td>
                 <td></td>
                 <td></td>
@@ -163,12 +163,22 @@
             <caption>PE = permanent evaluation</caption>
         </table>
         </div>
+            <button type="button" class="collapsible">Semester 2 <i class="fa-solid fa-caret-down"></i></button>
+            <div class="content">
+                <p>Coming soon</p>
+            </div>
+            <h2>Year 2</h2>
+            <button type="button" class="collapsible">Semester 1 <i class="fa-solid fa-caret-down"></i></button>
+            <div class="content">
+                <p>Coming soon</p>
+            </div>
+        </div>
         </section>
     </main>
     <div class="back_up">
         <a href="#"></a>
     </div>
-    <footer>
+    <footer class="logBook_footer">
         <div class="left">
             <p>Imke Paps</p>
             <p>1PROD</p>
@@ -190,6 +200,20 @@
     let header = document.querySelector('header');
     menuToggle.onclick = function (){
         header.classList.toggle('active')
+    }
+    let coll = document.getElementsByClassName("collapsible");
+    let i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
     }
 </script>
 </body>

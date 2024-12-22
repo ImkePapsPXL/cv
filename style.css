@@ -13,6 +13,11 @@
     box-sizing: border-box;
     font-family: parkinsans, schoolbell, sans-serif;
 }
+h2{
+    font-size: 75%;
+    color: var(--primary-color);
+}
+
 .container{
     max-width: 1920px;
     background-color: var(--secondary-color);
@@ -196,7 +201,7 @@ header ul li ul li{
     }
 section {
     margin: 20px auto;
-    width: 85%;
+    width: 88%;
     position: relative;
     top: 120px;
 }
@@ -385,18 +390,67 @@ li{
 }
 /*logbook*/
 .logBook table {
-    border: 2px solid var(--secondary-color);
+    border: 2px solid var(--primary-color);
     border-collapse: collapse;
-    width: 600px;
+    width: 85%;
     caption-side: bottom;
     border-radius: 25px;
+    font-size: 50%;
+    margin: 20px auto 150px auto;
 }
 table th, table td{
-    border: 1px solid white;
+    border: 1px solid var(--primary-color);
     padding: 10px;
 }
+.vacation{
+    background: var(--third-color);
+}
+caption{
+    color: var(--primary-color);
+}
+.logBook_footer{
+    position: relative;
+    width: 100%;
+    top: 230px;
+}
+button{
+    margin: 20px;
+}
 /*development*/
+.development{
+    width: 88%;
+    padding: 10px;
+    margin: 10px auto;
 
+    h3{
+        font-size: 60%;
+        border-bottom: 1px solid var(--primary-color);
+    }
+    h4{
+        font-size: 50%;
+    }
+    h5{
+        font-size: 40%;
+    }
+    h6{
+        font-size: 30%;
+    }
+    p{
+        font-size: 50% ;
+    }
+    span{
+        margin-right: 10px;
+        color: var(--primary-color);
+    }
+    h2, h3,h4,h5,h6, p{
+        margin: 15px 0;
+    }
+}
+.development_footer{
+    position: relative;
+    width: 100%;
+    top: 120px;
+}
 /*assignments*/
 
 /*reflection*/

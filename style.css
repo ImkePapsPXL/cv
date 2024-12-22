@@ -48,14 +48,14 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: 100%;
+    font-size: 150%;
     font-weight: bold;
     padding: 20px 15px;
     display: flex;
     justify-content: space-between;
 }
 header ul li ul a {
-    font-size: 90%;
+    font-size: 12%;
     padding: 15px;
 }
 header nav ul li a:hover{
@@ -356,30 +356,30 @@ section {
 /*    width: 100%;*/
 /*    top: 120px;*/
 /*}*/
-/*!*education and experience *!*/
-/*.title{*/
-/*    color: var(--primary-color);*/
-/*    font-weight: bold;*/
-/*    font-size: 100%;*/
-/*    border-bottom: 2px solid var(--primary-color);*/
-/*    span{*/
-/*        color: black;*/
-/*        font-size: 75%;*/
-/*    }*/
-/*    #heden{*/
-/*        background: var(--third-color);*/
-/*        color: black;*/
-/*        padding: 8px;*/
-/*        border-radius: 10px;*/
-/*    }*/
-/*}*/
-/*li{*/
-/*    padding: 10px 0;*/
-/*    font-size: 70%;*/
-/*}*/
-/*.time i{*/
-/*    margin-right: 8px;*/
-/*}*/
+/*education and experience */
+.title{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 100%;
+    border-bottom: 2px solid var(--primary-color);
+    span{
+        color: black;
+        font-size: 75%;
+    }
+    #heden{
+        background: var(--third-color);
+        color: black;
+        padding: 8px;
+        border-radius: 10px;
+    }
+}
+li{
+    padding: 10px 0;
+    font-size: 70%;
+}
+.time i{
+    margin-right: 8px;
+}
 .mobile_version{
     display: none;
 }

@@ -572,14 +572,14 @@ footer {
         max-width: 400px;
         margin-bottom: 50px;
     }
-/*    #contact_me{*/
-/*        display: flex;*/
-/*        flex-direction: column;*/
-/*    }*/
-/*    .social-icons{*/
-/*        display: flex;*/
-/*        flex-direction: column;*/
-/*    }*/
+    #contact_me{
+        display: flex;
+        flex-direction: column;
+    }
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media (max-width: 480px) {
     .mobile_version{

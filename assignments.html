@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=”viewport” content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Parkinsans:wght@300..800&family=Schoolbell&display=swap" rel="stylesheet">
+    <title>Portfolio Imke Paps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header class="active">
+        <a href="index.html" class="logo">Imke Paps</a>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html" >Resume &nbsp; <b><i class="fa-solid fa-caret-down"></i></b></a>
+                    <ul>
+                        <li><a href="#intro" id="about">About me </a></li>
+                        <li> <a href="#education" id="school">Education</a></li>
+                        <li><a href="#skills" id="skill">Skills </a></li>
+                        <li><a href="#languague" id="languague_skill">Languague </a></li>
+                        <li><a href="#experience" id="work">Experience </a></li>
+                    </ul>
+                </li>
+                <li> <a href="log.html">Log</a></li>
+                <li> <a href="development.html">Development</a></li>
+                <li><a href="assignments.html" class="now">Portfolio</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+
+                <li><a href="contact.html" >Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <div class="left">
+            <p>Imke Paps</p>
+            <p>1PROD</p>
+        </div>
+        <p class="center">Opdracht Curriculum vitae</p>
+        <div class="go_up">
+            <a href="#" ><i class="fa-solid fa-circle-up"></i></a>
+        </div>
+        <div class="social-icons">
+            <a href="mailto:imke.paps@outlook.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/imke-p-b93241200/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/imke.paps" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+</div>
+<script>
+    //menu
+    let menuToggle = document.querySelector('.menuToggle');
+    let header = document.querySelector('header');
+    menuToggle.onclick = function (){
+        header.classList.toggle('active')
+    }
+</script>
+</body>
+</html>

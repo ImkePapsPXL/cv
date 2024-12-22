@@ -48,14 +48,14 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: 150%;
+    font-size: 100%;
     font-weight: bold;
     padding: 20px 15px;
     display: flex;
     justify-content: space-between;
 }
 header ul li ul a {
-    font-size: 120%;
+    font-size: 90%;
     padding: 15px;
 }
 header nav ul li a:hover{
@@ -200,60 +200,60 @@ section {
     position: relative;
     top: 120px;
 }
-/*.collapsible, i{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*}*/
-/*.collapsible {*/
-/*    background-color: var(--primary-color);*/
-/*    color: var(--secondary-color);*/
-/*    !*border-bottom: 3px solid var(--third-color); !* na opdracht op deze manier*!*!*/
-/*    cursor: pointer;*/
-/*    padding: 10px;*/
-/*    width: 100%;*/
-/*    outline: none;*/
-/*    font-size: 100%;*/
-/*}*/
-/*.active, .collapsible:hover {*/
-/*    background-color: var(--primary-color);*/
-/*}*/
-/*.content {*/
-/*    padding: 10px;*/
-/*    display: none;*/
-/*    overflow: hidden;*/
-/*    margin: 10px;*/
-/*    font-size: 70%;*/
-/*}*/
-/*!*tabel*!*/
-/*.pc_version {*/
-/*    display: grid;*/
-/*    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));*/
-/*    gap: 2px;*/
-/*}*/
-/*.pc_version .content table {*/
-/*    margin: 25px 10px;*/
-/*    width: 100%;*/
-/*    border-width: 20px;*/
-/*    border-collapse: collapse;*/
-/*}*/
-/*.pc_version .content  table th, .pc_version table td {*/
-/*    padding: 12px 15px;*/
-/*    border-radius: 20px;*/
-/*    text-align: center;*/
-/*    vertical-align: middle;*/
-/*}*/
-/*.pc_version .content  table tr {*/
-/*    background-color: var(--third-color);*/
-/*    color: var(--secondary-color);*/
-/*}*/
-/*.pc_version .content  tr:nth-of-type(even) {*/
-/*    background-color: var(--secondary-color);*/
-/*    color: black;*/
-/*}*/
-/*.pc_version .content  tr:last-of-type {*/
-/*    border-radius: 20px;*/
-/*}*/
+.collapsible, i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collapsible {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    /*border-bottom: 3px solid var(--third-color); !* na opdracht op deze manier*!*/
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    font-size: 100%;
+}
+.active, .collapsible:hover {
+    background-color: var(--primary-color);
+}
+.content {
+    padding: 10px;
+    display: none;
+    overflow: hidden;
+    margin: 10px;
+    font-size: 70%;
+}
+/*tabel*/
+.pc_version {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    gap: 2px;
+}
+.pc_version .content table {
+    margin: 25px 10px;
+    width: 100%;
+    border-width: 20px;
+    border-collapse: collapse;
+}
+.pc_version .content  table th, .pc_version table td {
+    padding: 12px 15px;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.pc_version .content  table tr {
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+}
+.pc_version .content  tr:nth-of-type(even) {
+    background-color: var(--secondary-color);
+    color: black;
+}
+.pc_version .content  tr:last-of-type {
+    border-radius: 20px;
+}
 /*!*circles languague*!*/
 /*.flex {*/
 /*    display: flex;*/
@@ -380,9 +380,9 @@ section {
 /*.time i{*/
 /*    margin-right: 8px;*/
 /*}*/
-/*.mobile_version{*/
-/*    display: none;*/
-/*}*/
+.mobile_version{
+    display: none;
+}
 /*!*logbook*!*/
 /*.logBook table {*/
 /*    border: 2px solid var(--secondary-color);*/

@@ -254,103 +254,103 @@ section {
 .pc_version .content  tr:last-of-type {
     border-radius: 20px;
 }
-/*!*circles languague*!*/
-/*.flex {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*    width: 100%;*/
-/*}*/
-/*.box {*/
-/*    position: relative;*/
-/*    width: 20%;*/
-/*    height: 20%;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    flex-direction: column;*/
-/*}*/
-/*.percent {*/
-/*    position: relative;*/
-/*    width: 70px;*/
-/*    height: 70px;*/
-/*}*/
-/*.percent .number {*/
-/*    position: absolute;*/
-/*    top: 10px;*/
-/*    left: 10px;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
-/*.percent .text {*/
-/*    position: relative;*/
-/*    width: 150px;*/
-/*    height: 150px;*/
-/*}*/
-/*.percent svg {*/
-/*    position: relative;*/
-/*    width: 150px;*/
-/*    height: 150px;*/
-/*}*/
-/*.percent .number h3 {*/
-/*    font-size: 24px;*/
-/*}*/
-/*.percent .number h3 span {*/
-/*    font-size: 20px;*/
-/*}*/
-/*.text {*/
-/*    padding: 15px 0;*/
-/*    margin: 10px 25px;*/
-/*}*/
-/*.percent svg circle {*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    fill: none;*/
-/*    stroke-width: 10;*/
-/*    transform: translate(5px, 5px);*/
-/*    stroke-dasharray: 240;*/
-/*    stroke-dashoffset: 240;*/
-/*    stroke-linecap: round;*/
-/*}*/
-/*#english .percent svg circle:nth-child(1),*/
-/*#french .percent svg circle:nth-child(1),*/
-/*#dutch .percent svg circle:nth-child(1) {*/
-/*    stroke-dashoffset: 0;*/
-/*    stroke: #f3f3f3;*/
-/*}*/
-/*#english .percent svg circle:nth-child(2) {*/
-/*    stroke-dashoffset: calc(240 - (240 * 85) / 100);*/
-/*    stroke: var(--primary-color);*/
-/*    opacity: 0;*/
-/*    animation: opacity 1s linear forwards;*/
-/*    animation-delay: 1s;*/
-/*}*/
-/*#french .percent svg circle:nth-child(2) {*/
-/*    stroke-dashoffset: calc(240 - (240 * 70) / 100);*/
-/*    stroke: var(--primary-color);*/
-/*    opacity: 0;*/
-/*    animation: opacity 1s linear forwards;*/
-/*    animation-delay: 1s;*/
-/*}*/
-/*#dutch .percent svg circle:nth-child(2) {*/
-/*    stroke-dashoffset: calc(240 - (240 * 92) / 100);*/
-/*    stroke: var(--primary-color);*/
-/*    opacity: 0;*/
-/*    animation: opacity 1s linear forwards;*/
-/*    animation-delay: 1s;*/
-/*}*/
-/*@keyframes opacity{*/
-/*    0%{*/
-/*        opacity: 0;*/
-/*    }*/
-/*    100%{*/
-/*        opacity: 1;*/
-/*    }*/
-/*}*/
+/*circles languague*/
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.box {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.percent {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+.percent .number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.percent .text {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.percent svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.percent .number h3 {
+    font-size: 24px;
+}
+.percent .number h3 span {
+    font-size: 20px;
+}
+.text {
+    padding: 15px 0;
+    margin: 10px 25px;
+}
+.percent svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 10;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 240;
+    stroke-dashoffset: 240;
+    stroke-linecap: round;
+}
+#english .percent svg circle:nth-child(1),
+#french .percent svg circle:nth-child(1),
+#dutch .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+}
+#english .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(240 - (240 * 85) / 100);
+    stroke: var(--primary-color);
+    opacity: 0;
+    animation: opacity 1s linear forwards;
+    animation-delay: 1s;
+}
+#french .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(240 - (240 * 70) / 100);
+    stroke: var(--primary-color);
+    opacity: 0;
+    animation: opacity 1s linear forwards;
+    animation-delay: 1s;
+}
+#dutch .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(240 - (240 * 92) / 100);
+    stroke: var(--primary-color);
+    opacity: 0;
+    animation: opacity 1s linear forwards;
+    animation-delay: 1s;
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 #resume-footer{
     position: relative;
     width: 100%;

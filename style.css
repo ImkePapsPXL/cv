@@ -582,6 +582,10 @@ footer {
     .pc_version{
         display:none;
     }
+    #info{
+        width: 100%;
+        right: 0;
+    }
 }
 @media (max-width: 480px) {
     .mobile_version{

@@ -565,13 +565,13 @@ footer {
 /*        .honesty {width: 92%; background-color: var(--third-color);}*/
 /*        .flexibility {width: 75%; background-color: var(--primary-color);}*/
 /*    }*/
-/*    .pc_version{*/
-/*        display:none;*/
-/*    }*/
-/*    form{*/
-/*        max-width: 400px;*/
-/*        margin-bottom: 50px;*/
-/*    }*/
+    .pc_version{
+        display:none;
+    }
+    form{
+        max-width: 400px;
+        margin-bottom: 50px;
+    }
 /*    #contact_me{*/
 /*        display: flex;*/
 /*        flex-direction: column;*/
@@ -607,4 +607,7 @@ footer {
                 .honesty {width: 92%; background-color: var(--third-color);}
                 .flexibility {width: 75%; background-color: var(--primary-color);}
             }
+    .pc_version{
+        display:none;
+    }
 }

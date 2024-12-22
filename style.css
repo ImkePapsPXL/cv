@@ -186,10 +186,10 @@ header ul li ul li{
     img:hover {
         box-shadow: 6px 6px 2px var(--fifth-color);
     }
-    /*img:active {*/
-    /*    border: 7px solid var(--primary-color);*/
-    /*    box-shadow: none;*/
-    /*}*/
+    img:active {
+        border: 7px solid var(--primary-color);
+        box-shadow: none;
+    }
     .fa-sharp, .fa-phone, p{
         display: flex;
         margin: 5px 10px;

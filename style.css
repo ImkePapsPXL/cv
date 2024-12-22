@@ -554,37 +554,12 @@ footer {
     }
 }
 @media (max-width: 750px) {
-    .mobile_version{
-        display: block;
-        .skill_bar {
-            width: 100%;
-            height: 40%;
-            background: rgba(255,255,255,2);
-            font-size: 75%;
-        }
-        .skills {
-            text-align: right;
-            color: rgba(255,255,255,2);
-            font-size: 100%;
-        }
-        .html {width: 75%; background-color: var(--third-color);}
-        .indesign {width: 80%; height: 40%; background-color: var(--primary-color);}
-        .sony {width: 65%; background-color: var(--primary-color);}
-        .krita {width: 77%; background-color: var(--third-color);}
-        .photoshop {width: 75%; background-color: var(--primary-color);}
-        .empathic {width: 95%; background-color: var(--third-color);}
-        .social {width: 70%; background-color: var(--primary-color);}
-        .creativity {width: 85%; background-color: var(--third-color);}
-        .assertive {width: 80%; background-color: var(--primary-color);}
-        .honesty {width: 92%; background-color: var(--third-color);}
-        .flexibility {width: 75%; background-color: var(--primary-color);}
-    }
-    .pc_version{
-        display:none;
-    }
     #info{
         width: 100%;
         right: 0;
+        a, p{
+         display: inline-flex;
+        }
     }
 }
 @media (max-width: 480px) {

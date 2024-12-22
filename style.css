@@ -48,14 +48,14 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: 150%;
+    font-size: 160%;
     font-weight: bold;
     padding: 20px 15px;
     display: flex;
     justify-content: space-between;
 }
 header ul li ul a {
-    font-size: 12%;
+    font-size: 150%;
     padding: 15px;
 }
 header nav ul li a:hover{
@@ -351,11 +351,11 @@ section {
 /*        opacity: 1;*/
 /*    }*/
 /*}*/
-/*#resume-footer{*/
-/*    position: relative;*/
-/*    width: 100%;*/
-/*    top: 120px;*/
-/*}*/
+#resume-footer{
+    position: relative;
+    width: 100%;
+    top: 120px;
+}
 /*education and experience */
 .title{
     color: var(--primary-color);
@@ -453,15 +453,15 @@ li{
 /*}*/
 
 
-/*!*footer*!*/
-/*footer {*/
-/*    display: flex;*/
-/*    align-content: center;*/
-/*    justify-content: space-between;*/
-/*    background: black;*/
-/*    color: var(--secondary-color);*/
-/*    padding: 25px ;*/
-/*}*/
+/*footer*/
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background: black;
+    color: var(--secondary-color);
+    padding: 25px ;
+}
 /*.go_up{*/
 /*    position: fixed;*/
 /*    right: 2.5rem;*/

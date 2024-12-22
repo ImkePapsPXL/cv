@@ -462,15 +462,15 @@ footer {
     color: var(--secondary-color);
     padding: 25px ;
 }
-/*.go_up{*/
-/*    position: fixed;*/
-/*    right: 2.5rem;*/
-/*    bottom: 2.5rem;*/
-/*    font-size: 25px;*/
-/*    i{*/
-/*        color: var(--primary-color);*/
-/*    }*/
-/*}*/
+.go_up{
+    position: fixed;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    font-size: 25px;
+    i{
+        color: var(--primary-color);
+    }
+}
 /*@media (max-width: 1150px) {*/
 /*    header{*/
 /*        padding: 10px 20px;*/
